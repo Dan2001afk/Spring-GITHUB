@@ -1,0 +1,35 @@
+[
+    {
+    "cedula":1002112,
+    "nombre": "camilo",
+    "apellido": "Gonzalez",
+    "correo":"camolo.777@gmail.com",
+    "edad": 25,
+    "telefono":3118397632
+},
+{
+    "nombre": "Daniel",
+    "apellido":  "gordillo",
+    "edad": 20
+},
+{
+    "nombre": "Nicolas",
+    "apellido":  "guerra",
+    "edad": 28
+},
+{
+    "nombre": "felipe",
+    "apellido":  "gazrzon",
+    "edad": 19
+},
+{
+    "nombre": "juan",
+    "apellido":  "gonzalez",
+    "edad": 30
+}
+]
+
+
+
+
+
