@@ -68,7 +68,7 @@ $(document).ready(function(){
             datatype: JSON,
             success:function(respuesta){
                 if (respuesta) 
-                    console.log(respuesta)
+                    alert(respuesta)
                 else
                 console.log("no esta en el sistema")
 
@@ -76,6 +76,24 @@ $(document).ready(function(){
         })
 
     })
+
+
+    $('#Eliminar').on('click', function(){
+        let dato = $("#nombrepersona").val();
+        $.ajax({
+            url: "http://localhost:8080/eliminarPersona/" + dato,
+            type: "GET",
+            datatype: JSON,
+            success:function(respuesta){
+                if (respuesta) 
+                    console.log(respuesta)
+                else
+                console.log("no esta en el sistema")
+            }
+       })
+    })
+
+
 })
 /*
 
