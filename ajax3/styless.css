@@ -1,0 +1,22 @@
+body{
+    background-color: rgb(213, 147, 134);
+}
+
+.forma{
+    width:100%;
+    height: 200px;
+    padding: 360px;
+    justify-content: center;
+    background-color: rgba(18, 8, 4, 0.58);
+}
+
+.fmr{
+    text-align: center;
+}
+
+#boton{
+    width: 100%;
+}
+#texto{
+    color: aliceblue;
+}
