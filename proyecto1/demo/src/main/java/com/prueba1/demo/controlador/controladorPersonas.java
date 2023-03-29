@@ -27,13 +27,20 @@ public class controladorPersonas {
             return servicio.mostrar();
 
     }
-
     @PostMapping("/agregarPersonas")
     public String agregarPersonas(@RequestBody personas p){
             return servicio.agregarPersonas(p);
     }
+
     @GetMapping("/buscarPersona/{dato}")
     public personas buscar (@PathVariable("dato") String nombre){
             return servicio.buscarPersona(nombre);
+    }
+
+
+    @GetMapping("/eliminarPersona/{dato}")
+    public String eliminar (@PathVariable("dato") String nombre)
+    {
+        return servicio.eliminarPersona(nombre);
     }
 }
